@@ -1,0 +1,42 @@
+.header{
+    background-color:chocolate;
+    height: 65px;
+    width: 100%;
+    padding: 0px;
+    position: fixed;
+    border-bottom: 1px solid brown;
+    z-index: 1;
+}
+
+.logoImg{
+    height: 60px;
+    width: 60%;
+}
+
+img{
+    height: 100%;
+}
+
+.faBars{
+    width: 20%;;
+}
+
+.languageButton{
+    width: 20%;
+}
+
+
+@media (min-width: 600px) {
+    .header{
+        background-color:chocolate;
+        width: 100%;
+        padding: 0px;
+        position: fixed;
+        border-bottom: 1px solid brown;
+        z-index: 1;
+    }
+    
+    .logoImg{
+        height: 100%;
+    }
+}

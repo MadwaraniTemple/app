@@ -1,0 +1,21 @@
+.sideNavBar{
+    display: none;
+}
+
+.sideNavBarActive{
+    background-color:chocolate;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 100;
+}
+
+@media (min-width: 600px) {
+    .sideNavBarActive{
+        background-color:chocolate;
+        height: 100%;
+        width: 20%;
+        position: fixed;
+
+    }
+  }
