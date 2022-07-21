@@ -6,11 +6,13 @@
     position: fixed;
     border-bottom: 1px solid brown;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logoImg{
     height: 60px;
-    width: 60%;
+    width: 80%;
 }
 
 img{
@@ -18,7 +20,7 @@ img{
 }
 
 .faBars{
-    width: 20%;;
+    padding: 20px;
 }
 
 .languageButton{

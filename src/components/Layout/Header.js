@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 
 const Header = (props) => {
 
-    const [, setLanguage] = useState('en');
+    const [language, setLanguage] = useState();
 
     const handleOnclick = ( e ) => {
         e.preventDefault();
@@ -16,16 +16,15 @@ const Header = (props) => {
 
     return <Fragment>
         <header className={classes.header}>
-            <span className={classes.faBars}>
-                <FaBars onClick={() => props.showSidebar()}/>
-            </span>
             <span className={classes.logoImg}>
                 <img src={jaiMaaMadwaraniTextLogo} alt='Jai Maa madwarani' />
             </span>
-            <span className={classes.anguageButton}>
-                 <button value='en' onClick={handleOnclick}> English </button>
-                 {/* <button value='hi' onClick={handleOnclick}> Hindi </button> */}
+            <span className={classes.faBars}>
+                <FaBars size={30} onClick={() => props.showSidebar()}/>
             </span>
+            {/* <span className={classes.languageButton}>
+                {language === 'en' ? <button value='hi' onClick={handleOnclick}> हिंदी </button> : <button value='en' onClick={handleOnclick}> English </button>}
+            </span> */}
         </header>
     </Fragment>
 };
