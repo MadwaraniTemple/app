@@ -1,13 +1,14 @@
+import React from 'react';
 import classes from './About.module.css';
 import { useTranslation } from "react-i18next";
-import MaaMadwaraniImg from '../../assets/maamadwarani_landscape.JPG';
+//import MaaMadwaraniImg from '../../assets/maamadwarani_landscape.JPG';
 
 const About = (props) => {
 
     const { t } = useTranslation();
 
     return <div className={classes.body} id="About">
-        <div class={classes.maaMadwaraniImg}><img src={MaaMadwaraniImg} alt='Jai Maa madwarani' /></div>
+        {/* <div class={classes.maaMadwaraniImg}><img src={MaaMadwaraniImg} alt='Jai Maa madwarani' /></div> */}
         <h1> { t("introduction.aboutMaaMadwarani.header") } </h1>
         <p> { t("introduction.aboutMaaMadwarani.para") } </p>
 

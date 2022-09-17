@@ -1,3 +1,4 @@
+import React from 'react';
 import classes from './Schedules.module.css';
 import { useTranslation } from "react-i18next";
 

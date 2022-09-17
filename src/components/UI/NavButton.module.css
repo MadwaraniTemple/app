@@ -9,6 +9,7 @@
     border-bottom: 1px solid brown;
 }
 
-.navButton:hover {
+.navButton:hover
+{
     background-color:rgb(173, 72, 0);
 }

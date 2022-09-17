@@ -1,3 +1,5 @@
-.layout {
-    width: 80%;
+.body {
+    position: absolute;
+    /* padding: 65px, 0%, 0%, 0%; */
+    top: 100px;
 }

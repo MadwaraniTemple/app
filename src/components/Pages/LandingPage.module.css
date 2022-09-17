@@ -1,0 +1,13 @@
+.body {
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    justify-content: center;
+    padding: 5%;
+}

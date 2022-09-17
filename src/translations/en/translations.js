@@ -1,7 +1,7 @@
 export const TRANSLATIONS_EN = {
 
     navLinks: {
-        navLink_1: "Maa Madwarani Temple",
+        navLink_1: "Home",
         navLink_2: "Schedules",
         navLink_3: "Attractions",
         navLink_4: "How to reach",
@@ -74,7 +74,7 @@ export const TRANSLATIONS_EN = {
         header: "ATTRACTIONS",
         para: "The Holyland of Maa Madwarani has many temples with mythological history as well as Picnic spots and places surrounded by the mighty mountains. The true beauty of nature can be felt at Maa Madwarani hills. You can feel the fun and play of the founas living under the blessings and shelter of Maa Madwarani. Here are some of places that must be visited-",
         mainTemple: {
-            title: "Maa Madwarani Temple",
+            title: "Maa Madwarani Main Temple",
             place: "Uphill",
             para: "Maa Madwarani main temple is situated at the highest point of Maa Madwarani hills and just beside the temple there is a very deep trench which gives a scenaric view. This temple has the haldo (Kalmi) tree. It is believed, after the one of the haldo tree was cut down Maa came with her four sisters and shared her power with five stones, which, now is Worshiped."
         },

@@ -1,22 +1,23 @@
 .header{
-    background-color:chocolate;
+    background-color:rgb(255, 255, 255);
     height: 65px;
     width: 100%;
     padding: 0px;
     position: fixed;
-    border-bottom: 1px solid brown;
-    z-index: 1;
+    border-bottom: 1px solid rgb(202, 0, 0);
+    z-index: 100;
     display: flex;
     justify-content: space-between;
 }
 
 .logoImg{
-    height: 60px;
-    width: 80%;
+    height: 100%;
+    width: 200px;
+    padding: 15px 0px 0px 15px;
 }
 
-img{
-    height: 100%;
+.img{
+    height: 30px;
 }
 
 .faBars{

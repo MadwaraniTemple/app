@@ -1,5 +1,5 @@
 import Layout from './components/Layout/Layout';
-import {Fragment} from 'react';
+import React, {Fragment} from 'react';
 
 function App() {
   return (
