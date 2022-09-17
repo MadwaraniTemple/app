@@ -39,7 +39,7 @@ export const TRANSLATIONS_EN = {
             evening: "Evening - 7:00 PM - 8:00 PM"
         },
         eventDetails: {
-            header: "Shardiy (Kwar) Navaratri Festival-2020",
+            header: "Shardiy (Kwar) Navaratri Festival-2022",
             note: "Note : Events are held according to Hindu calendar-",
             tableHeaders: {
                 header1: "Hindu Calendar's Tithi",
@@ -57,15 +57,15 @@ export const TRANSLATIONS_EN = {
                 event1: "Ashwin shukla paksha 5",
                 event2: "Ashwin Shukla Paksha 9",
                 event3: "Ashwin Shukla Paksha 11",
-                event4: "Ashwin Shukla Paksha 12",
-                event5: "Ashwin Shukla Paksha 13",
+                event4: "Ashwin Shukla Paksha 12/13",
+                event5: "Ashwin Shukla Paksha 14",
             },
             dates: {
-                event1: "21-10-2020 Wednesday",
-                event2: "25-10-2020 Sunday",
-                event3: "27-10-2020 Tuesday",
-                event4: "28-10-2020 Wednesday",
-                event5: "29-10-2020 Thursday",
+                event1: "30-09-2022 Friday",
+                event2: "04-10-2022 Tuesday",
+                event3: "06-10-2022 Thursday",
+                event4: "07-10-2022 Friday",
+                event5: "08-10-2022 Saturday",
             }
         }
     },
