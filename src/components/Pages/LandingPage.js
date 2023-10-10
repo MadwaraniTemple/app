@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from './LandingPage.module.css';
 import img1 from '../../assets/Img_1.jpg';
 import img2 from '../../assets/Img_2.jpeg';
-import img3 from '../../assets/Img_3.jpeg';
+import img3 from '../../assets/Img_3.jpg';
 
 const LandingPage =  () => {
   return ( 
