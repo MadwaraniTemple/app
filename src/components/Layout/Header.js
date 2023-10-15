@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import jaiMaaMadwaraniTextLogo from '../../assets/JaiMaaMadwaraniEn.png';
+import jaiMaaMadwaraniTextLogo from '../../assets/JaiMaaMadwaraniLogo.jpg';
 import classes from './Header.module.css';
 import { FaBars } from "react-icons/fa";
 

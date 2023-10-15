@@ -37,6 +37,13 @@ const HowToReach = (props) => {
                 <p> { t("howToReach.byAir.desc") } </p>
             </Col>
         </Row>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7388.357001074295!2d82.6810447!3d22.1953217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a279118c6e87417%3A0x76ef40c0c5ba463a!2sMaa%20Madwarani%20Mandir!5e0!3m2!1sen!2sin!4v1632287551223!5m2!1sen!2sin" 
+            width="100%" 
+            height="300"  
+            loading="lazy" 
+            title="Maa Madwarani Mandir Map">
+        </iframe>
         </Container>
         
     </div>

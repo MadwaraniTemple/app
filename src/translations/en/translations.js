@@ -115,6 +115,20 @@ export const TRANSLATIONS_EN = {
             title: "BY AIR",
             desc: "Swami Vivekanand Airport, Raipur is connected to almost every aiport of the country. after reaching Raipur you can board a Bus or Train (Recommended). Just by 4 hour you will be there in Madwarani."
         }
+    },
+
+    contactUs: {
+        header: "Contact Us",
+        para: "We will be pleased to hear from you. Please feel free to send your valuable feedback, queries to us.",
+        association: {
+            title: "Jay Maa Madwarani Seva Samiti (Kalmi Ped)",
+            para: "Uphill, Jheenka Mahora (Madwarani), Distt-Korba, Chhattisgarh, India. Reigistration No.13377"
+        },
+        contact: {
+            name: "Mr.Laxman Singh Kanwar",
+            position: "Vice Treasurer",
+            phone: "+91 7354310314",
+        }
     }
     
 };
