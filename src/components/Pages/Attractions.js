@@ -7,6 +7,11 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import img1 from '../../assets/maamadwarani_landscape.JPG';
+import img2 from '../../assets/MaamadwaraniNewTemple.jpg';
+import img3 from '../../assets/LordHanuman.jpg';
+import img4 from '../../assets/MaamadwaraniTempleDownHill.jpg';
+import img5 from '../../assets/picnicSpots.jpg';
+
 
 const Attractions = (props) => {
 
@@ -29,7 +34,7 @@ const Attractions = (props) => {
             </Col>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img1} />
+                    <Card.Img variant="top" src={img2} />
                     <Card.Body>
                         <Card.Title> <h3>{ t("attractions.otherTemples.title") }</h3> </Card.Title>
                         <Card.Text> { t("attractions.otherTemples.para") } </Card.Text>
@@ -38,7 +43,7 @@ const Attractions = (props) => {
             </Col>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img1} />
+                    <Card.Img variant="top" src={img3} />
                     <Card.Body>
                         <Card.Title> <h3>{ t("attractions.hanumanTemple.title") }</h3> </Card.Title>
                         <Card.Text> { t("attractions.hanumanTemple.para") } </Card.Text>
@@ -47,7 +52,7 @@ const Attractions = (props) => {
             </Col>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img1} />
+                    <Card.Img variant="top" src={img4} />
                     <Card.Body>
                         <Card.Title> <h3>{ t("attractions.madwaraniTempleDownhill.title") }</h3> </Card.Title>
                         <Card.Text> { t("attractions.madwaraniTempleDownhill.para") } </Card.Text>
@@ -56,7 +61,7 @@ const Attractions = (props) => {
             </Col>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img1} />
+                    <Card.Img variant="top" src={img5} />
                     <Card.Body>
                         <Card.Title> <h3>{ t("attractions.picnicSpots.title") }</h3> </Card.Title>
                         <Card.Text> { t("attractions.picnicSpots.para") } </Card.Text>
@@ -64,23 +69,6 @@ const Attractions = (props) => {
                 </Card>
             </Col>
         </Row>
-    
-        {/* <h3>{ t("attractions.otherTemples.title") }</h3>
-        <h5> { t("attractions.otherTemples.place") } </h5>
-        <p> { t("attractions.otherTemples.para") } </p>
-
-        <h3>{ t("attractions.hanumanTemple.title") }</h3>
-        <h5> { t("attractions.hanumanTemple.place") } </h5>
-        <p> { t("attractions.hanumanTemple.para") } </p>
-
-        <h3>{ t("attractions.madwaraniTempleDownhill.title") }</h3>
-        <h5> { t("attractions.madwaraniTempleDownhill.place") } </h5>
-        <p> { t("attractions.madwaraniTempleDownhill.para") } </p>
-
-        <h3>{ t("attractions.picnicSpots.title") }</h3>
-        <h5> { t("attractions.picnicSpots.place") } </h5>
-        <p> { t("attractions.picnicSpots.para") } </p> */}
-
     </div>
         
 };

@@ -19,7 +19,7 @@ const Schedules = (props) => {
         <h1>{ t("schedules.eventDetails.header") }</h1>
         <h3>{ t("schedules.eventDetails.note") }</h3>
 
-        <table class="table table-hover">
+        <table className="table table-hover">
             <thead>
             <tr>
                 <th>{ t("schedules.eventDetails.tableHeaders.header1") }</th>

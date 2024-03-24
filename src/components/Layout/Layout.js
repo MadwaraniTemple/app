@@ -1,7 +1,6 @@
 import Header from './Header';
 import SideNavBar from './SideNavBar';
 import Body from './Body';
-import Footer from './Footer';
 import React, {Fragment, useState} from 'react';
 import i18n from '../../translations/i18n';
 import classes from './Layout.module.css';
@@ -22,7 +21,6 @@ const Layout = (props) => {
         <Header showSidebar={showSidebar}/>
         <SideNavBar sidebar={sidebar} showSidebar={showSidebar} handleOnclick={handleOnclick} language={language}/>
         <Body className={classes.body} />
-        <Footer />
     </Fragment>
   );
 }
