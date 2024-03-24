@@ -39,7 +39,7 @@ export const TRANSLATIONS_EN = {
             evening: "Evening - 7:00 PM - 8:00 PM"
         },
         eventDetails: {
-            header: "Shardiy (Kwar) Navaratri Festival-2023",
+            header: "Basanti (Chaitra) Navaratri Festival-2024",
             note: "Note : Events are held according to Hindu calendar-",
             tableHeaders: {
                 header1: "Hindu Calendar's Tithi",
@@ -54,18 +54,18 @@ export const TRANSLATIONS_EN = {
                 event5: "Jyoti kalash dispersion"
             },
             hinduCalDate: {
-                event1: "Ashwin shukla paksha 5",
-                event2: "Ashwin Shukla Paksha 9",
-                event3: "Ashwin Shukla Paksha 11",
-                event4: "Ashwin Shukla Paksha 12/13",
-                event5: "Ashwin Shukla Paksha 14",
+                event1: "Chaitra shukla paksha 1",
+                event2: "Chaitra Shukla Paksha 5",
+                event3: "Chaitra Shukla Paksha 7",
+                event4: "Chaitra Shukla Paksha 8",
+                event5: "Chaitra Shukla Paksha 9",
             },
             dates: {
-                event1: "19-10-2023 Thursday",
-                event2: "23-10-2023 Monday",
-                event3: "25-10-2023 Wednessday",
-                event4: "26-10-2023 Thursday",
-                event5: "27-10-2023 Friday",
+                event1: "9-04-2024 Tuesday",
+                event2: "13-10-2024 Saturday",
+                event3: "15-10-2024 Monday",
+                event4: "16-10-2024 Tuesday",
+                event5: "17-10-2024 Wednesday",
             }
         }
     },
@@ -129,6 +129,29 @@ export const TRANSLATIONS_EN = {
             position: "Vice Treasurer",
             phone: "+91 7354310314",
         }
+    },
+
+    jyotiKalash: {
+        header: "Jyoti Kalash",
+        ghritShringarJyoti: {
+            header: "Ghrit Shringar Jyoti Kalash",
+            Description: "",
+            price: "₹1601"
+        },
+        ghritJyoti: {
+            header: "Ghrit Jyoti Kalash",
+            Description: "",
+            price: "₹1101"
+        },
+        telShringarJyoti: {
+            header: "Tel Shringar Jyoti Kalash",
+            Description: "",
+            price: "₹1001"
+        },
+        telJyoti: {
+            header: "Tel Jyoti Kalash",
+            Description: "",
+            price: "₹701"
+        }
     }
-    
 };

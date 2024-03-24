@@ -24,8 +24,8 @@ const SideNavBar = (props) => {
                 <NavButton title={ t("navLinks.navLink_3") } showSidebar={props.showSidebar} navLink="#Attractions"/>
                 <NavButton title={ t("navLinks.navLink_4") } showSidebar={props.showSidebar} navLink="#HowToReach"/>
                 <NavButton title={ t("navLinks.navLink_5") } showSidebar={props.showSidebar} navLink="JyotiKalash"/>
-                <NavButton title={ t("navLinks.navLink_6") } showSidebar={props.showSidebar} navLink="Association"/>
-                <NavButton title={ t("navLinks.navLink_7") } showSidebar={props.showSidebar} navLink="Gallery"/>
+                {/* <NavButton title={ t("navLinks.navLink_6") } showSidebar={props.showSidebar} navLink="Association"/>
+                <NavButton title={ t("navLinks.navLink_7") } showSidebar={props.showSidebar} navLink="Gallery"/> */}
                 <NavButton title={ t("navLinks.navLink_8") } showSidebar={props.showSidebar} navLink="#ContactUs"/>
             </div>
         </div>

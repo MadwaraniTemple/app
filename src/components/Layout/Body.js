@@ -7,6 +7,7 @@ import Schedules from '../Pages/Schedules';
 import Atractions from '../Pages/Attractions';
 import HowToReach from '../Pages/HowToReach';
 import ContactUs from '../Pages/ContactUs';
+import JyotiKalash from '../Pages/JyotiKalash';
 import Footer from './Footer';
 
 
@@ -14,15 +15,15 @@ const Body = (props) => {
     return <div className={classes.body}>
         <BrowserRouter>
             <Routes>
-                <Route path="*" element={<MainPage />} />
-                {/* <Route path="/JyotiKalash" element={<About />} /> */}
+                <Route path="*" element={<HomePage />} />
+                <Route path="/JyotiKalash" element={<JyotiKalash />} />
             </Routes>
         </BrowserRouter>
         <Footer />
     </div>
 };
 
-const MainPage = () => {
+const HomePage = () => {
     return <>
         <LandingPage />
         <About />

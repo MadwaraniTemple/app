@@ -69,23 +69,6 @@ const Attractions = (props) => {
                 </Card>
             </Col>
         </Row>
-    
-        {/* <h3>{ t("attractions.otherTemples.title") }</h3>
-        <h5> { t("attractions.otherTemples.place") } </h5>
-        <p> { t("attractions.otherTemples.para") } </p>
-
-        <h3>{ t("attractions.hanumanTemple.title") }</h3>
-        <h5> { t("attractions.hanumanTemple.place") } </h5>
-        <p> { t("attractions.hanumanTemple.para") } </p>
-
-        <h3>{ t("attractions.madwaraniTempleDownhill.title") }</h3>
-        <h5> { t("attractions.madwaraniTempleDownhill.place") } </h5>
-        <p> { t("attractions.madwaraniTempleDownhill.para") } </p>
-
-        <h3>{ t("attractions.picnicSpots.title") }</h3>
-        <h5> { t("attractions.picnicSpots.place") } </h5>
-        <p> { t("attractions.picnicSpots.para") } </p> */}
-
     </div>
         
 };

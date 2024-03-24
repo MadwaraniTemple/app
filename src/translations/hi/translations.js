@@ -39,7 +39,7 @@ export const TRANSLATIONS_HI = {
             evening: "सायं - 7:00 बजे से 8:00 बजे तक"
         },
         eventDetails: {
-            header: "शारदीय (क्वार) नवरात्रि महापर्व -2023",
+            header: "बासंती (चैत्र) नवरात्रि महापर्व -2024",
             note: "टीप-कार्यक्रम हिंदू कलेंडर के अनुसार हैं -",
             tableHeaders: {
                 header1: "तिथि",
@@ -54,18 +54,18 @@ export const TRANSLATIONS_HI = {
                 event5: "ज्योति जवारा विसर्जन"
             },
             hinduCalDate: {
-                event1: "अश्विन शुक्ल पक्ष 5",
-                event2: "अश्विन शुक्ल पक्ष 9",
-                event3: "अश्विन शुक्ल पक्ष 11",
-                event4: "अश्विन शुक्ल पक्ष 12/13",
-                event5: "अश्विन शुक्ल पक्ष 14",
+                event1: "चैत्र शुक्ल पक्ष 1",
+                event2: "चैत्र शुक्ल पक्ष 5",
+                event3: "चैत्र शुक्ल पक्ष 7",
+                event4: "चैत्र शुक्ल पक्ष 8",
+                event5: "चैत्र शुक्ल पक्ष 9",
             },
             dates: {
-                event1: "19-10-2023 गुरुवार",
-                event2: "23-10-2023 सोमवार",
-                event3: "25-10-2023 बुधवार",
-                event4: "26-10-2023 गुरुवार",
-                event5: "27-10-2023 शुक्रवार",
+                event1: "9-04-2024 मंगलवार",
+                event2: "13-10-2024 शनिवार",
+                event3: "15-10-2024 सोमवार",
+                event4: "16-10-2024 मंगलवार",
+                event5: "17-10-2024 बुधवार",
             }
         }
     },
@@ -128,6 +128,30 @@ export const TRANSLATIONS_HI = {
             name: "श्री लक्ष्मण सिंह कंवर",
             position: "उप कोषाध्यक्ष",
             phone: "+91 7354310314",
+        }
+    },
+
+    jyotiKalash: {
+        header: "ज्योति कलश",
+        ghritShringarJyoti: {
+            header: "घृत श्रृंगार ज्योति कलश",
+            Description: "",
+            price: "₹1601"
+        },
+        ghritJyoti: {
+            header: "घृत ज्योति कलश",
+            Description: "",
+            price: "₹1101"
+        },
+        telShringarJyoti: {
+            header: "तेल श्रृंगार ज्योति कलश",
+            Description: "",
+            price: "₹1001"
+        },
+        telJyoti: {
+            header: "तेल ज्योति कलश",
+            Description: "",
+            price: "₹701"
         }
     }
 
