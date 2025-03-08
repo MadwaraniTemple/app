@@ -39,7 +39,7 @@ export const TRANSLATIONS_EN = {
             evening: "Evening - 7:00 PM - 8:00 PM"
         },
         eventDetails: {
-            header: "Sardiya (Kwanr) Navaratri Festival-2024",
+            header: "Basanti (Chaitra) Navaratri Festival-2025",
             note: "Note : Events are held according to Hindu calendar-",
             tableHeaders: {
                 header1: "Hindu Calendar's Tithi",
@@ -54,18 +54,18 @@ export const TRANSLATIONS_EN = {
                 event5: "Jyoti kalash dispersion"
             },
             hinduCalDate: {
-                event1: "Ashwin shukla paksha 5",
-                event2: "Ashwin Shukla Paksha 8/9",
-                event3: "Ashwin Shukla Paksha 11",
-                event4: "Ashwin Shukla Paksha 12",
-                event5: "Ashwin Shukla Paksha 13",
+                event1: "Chaitra shukla paksha 1",
+                event2: "Chaitra Shukla Paksha 4/5",
+                event3: "Chaitra Shukla Paksha 7",
+                event4: "Chaitra Shukla Paksha 8",
+                event5: "Chaitra Shukla Paksha 9",
             },
             dates: {
-                event1: "07-10-2024 Monday",
-                event2: "11-10-2024 Friday",
-                event3: "13-10-2024 Sunday",
-                event4: "14-10-2024 Monday",
-                event5: "15-10-2024 Tuesday",
+                event1: "30-03-2025 Sunday",
+                event2: "02-04-2025 Wednesday",
+                event3: "04-04-2025 Friday",
+                event4: "05-04-2025 Saturday",
+                event5: "06-04-2025 Sunday",
             }
         }
     },
