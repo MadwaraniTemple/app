@@ -31,7 +31,7 @@
 
 @media (min-width: 600px) {
     .header{
-        background-color:chocolate;
+        background-color:rgb(255, 255, 255);
         width: 100%;
         padding: 0px;
         position: fixed;
