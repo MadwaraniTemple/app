@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bb7a2d1.css",
-    "main.js": "/static/js/main.4ab4baa3.js",
-    "static/js/453.f7c75c7e.chunk.js": "/static/js/453.f7c75c7e.chunk.js",
-    "static/media/Img_3.jpg": "/static/media/Img_3.31cbe431a6fb32d2e67e.jpg",
+    "main.css": "/static/css/main.97eabfac.css",
+    "main.js": "/static/js/main.ddf21870.js",
+    "static/js/488.325ff4cd.chunk.js": "/static/js/488.325ff4cd.chunk.js",
+    "static/media/Img_3.jpeg": "/static/media/Img_3.669c2abf0dadb4f062fa.jpeg",
     "static/media/Img_2.jpeg": "/static/media/Img_2.59ccc2c872d8f40678ca.jpeg",
+    "static/media/Img_4.jpeg": "/static/media/Img_4.8e3ebacff32085d07032.jpeg",
     "static/media/Img_1.jpg": "/static/media/Img_1.3b685ea0ade90cf8a4ce.jpg",
     "static/media/JyotiKalash.png": "/static/media/JyotiKalash.23daaa614b3b7a5d4493.png",
-    "static/media/Img_4.jpg": "/static/media/Img_4.2256f8535eb6cc18e29b.jpg",
     "static/media/maamadwarani_landscape.JPG": "/static/media/maamadwarani_landscape.db8c56386a0f65797d99.JPG",
     "static/media/LalaStudio.jpg": "/static/media/LalaStudio.32c0af3b5f23956fd9fe.jpg",
     "static/media/MaamadwaraniTempleDownHill.jpg": "/static/media/MaamadwaraniTempleDownHill.2502da0a620713ab4a13.jpg",
@@ -16,12 +16,12 @@
     "static/media/LordHanuman.jpg": "/static/media/LordHanuman.0ba81174b0f23bcc616d.jpg",
     "static/media/JaiMaaMadwaraniLogo.jpg": "/static/media/JaiMaaMadwaraniLogo.2c34c40936b728fe53cd.jpg",
     "index.html": "/index.html",
-    "main.4bb7a2d1.css.map": "/static/css/main.4bb7a2d1.css.map",
-    "main.4ab4baa3.js.map": "/static/js/main.4ab4baa3.js.map",
-    "453.f7c75c7e.chunk.js.map": "/static/js/453.f7c75c7e.chunk.js.map"
+    "main.97eabfac.css.map": "/static/css/main.97eabfac.css.map",
+    "main.ddf21870.js.map": "/static/js/main.ddf21870.js.map",
+    "488.325ff4cd.chunk.js.map": "/static/js/488.325ff4cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb7a2d1.css",
-    "static/js/main.4ab4baa3.js"
+    "static/css/main.97eabfac.css",
+    "static/js/main.ddf21870.js"
   ]
 }
