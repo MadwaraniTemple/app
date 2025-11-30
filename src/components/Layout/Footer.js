@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import classes from './Footer.module.css';
+import LalaStudio from '../../assets/LalaStudio.jpg';
 
 const Footer = (props) => {
 
-    return <Fragment>
+    return <>
         <footer className={classes.footer}>
-            <div>All rights reserved</div>
+            <img src={LalaStudio} alt='Lala Studio' className={classes.img}/>
         </footer>
-    </Fragment>
+    </>
 };
 
 export default Footer;
