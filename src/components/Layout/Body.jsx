@@ -7,6 +7,8 @@ import Atractions from '../Pages/Attractions';
 import HowToReach from '../Pages/HowToReach';
 import ContactUs from '../Pages/ContactUs';
 import JyotiKalash from '../Pages/JyotiKalash';
+import Association from '../Pages/Association';
+import Action from '../Pages/Action';
 import Footer from './Footer';
 import Header from './Header';
 import SideNavBar from './SideNavBar';
@@ -21,6 +23,7 @@ import {
 export const HomePage = () => {
     return <>
         <LandingPage />
+        <Action />
         <About />
         <Schedules />
         <Atractions />
@@ -70,13 +73,19 @@ const jyotiRoute = new Route({
   component: JyotiKalash,
 });
 
+const associationRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/Association',
+  component: Association,
+});
+
 const notFoundRoute = new Route({
   getParentRoute: () => rootRoute,
   path: '*',
   component: HomePage,
 });
 
-rootRoute.addChildren([indexRoute, jyotiRoute, notFoundRoute]);
+rootRoute.addChildren([indexRoute, jyotiRoute, associationRoute, notFoundRoute]);
 
 // Export the router so the provider can be mounted at a higher level (e.g. App.jsx)
 export const router = new Router({

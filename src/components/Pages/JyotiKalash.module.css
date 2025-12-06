@@ -10,3 +10,165 @@ h1 {
     text-align: center;
     font-weight: 900;
 }
+
+:global(.card) {
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+:global(.card img) {
+    height: 50%;
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+.registrationFormContainer {
+    margin-top: 4rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formTitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.registrationForm {
+    width: 100%;
+}
+
+.successMessage {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border: 1px solid #c3e6cb;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: 600;
+}
+
+.radioButtonGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.radioOption {
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 220px;
+    border: 1px solid #e3e6ea;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #ffffff;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.radioOption:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(23, 35, 55, 0.06);
+}
+
+.radioOption:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(13,110,253,0.08);
+}
+
+.selected {
+    border-color: #D2691E;
+    background: #D2691E;
+    color: #ffffff;
+    box-shadow: 0 14px 32px rgba(210,105,30,0.18);
+    transform: translateY(-6px) scale(1.02);
+}
+
+.selected .optionLabel {
+    color: #ffffff;
+}
+
+.selected .optionPrice {
+    color: #fff;
+}
+
+.optionLabel {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.optionPrice {
+    font-weight: 700;
+    color: #0d6efd;
+    margin-left: 1rem;
+}
+
+.radioOption.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.tableContainer {
+    margin-top: 2.5rem;
+    background-color: rgba(255,255,255,0.98);
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorMessage {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 1rem;
+}
+
+.searchContainer {
+    margin-top: 2.5rem;
+    background-color: rgba(255,255,255,0.98);
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.searchForm {
+    width: 100%;
+}
+
+.searchResultContainer {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+.searchResultContainer h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
