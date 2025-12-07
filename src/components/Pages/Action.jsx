@@ -1,9 +1,11 @@
 import React from 'react';
 import classes from './Action.module.css';
 import { useNavigate } from '@tanstack/react-router';
+import { useTranslation } from 'react-i18next';
 
 const Action = (props) => {
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     const handleJyotiKalashClick = () => {
         navigate({ to: '/JyotiKalash' });
@@ -12,32 +14,32 @@ const Action = (props) => {
 
     const handleDonationClick = () => {
         // Add donation link/logic here
-        alert('Donation feature coming soon!');
+        alert(t('action.donateComingSoon'));
     };
 
     return (
         <div className={classes.body} id="Action">
             {/* Organization Header */}
             <div className={classes.headerSection}>
-                <h1 className={classes.orgName}>Jay Maa Madwarani Seva Samiti (Kalmi Ped)</h1>
+                <h1 className={classes.orgName}>{t('action.orgName')}</h1>
             </div>
 
             {/* Address Section */}
             <div className={classes.addressSection}>
                 <p className={classes.address}>
-                    Uphill, Jheenka Mahora (Madwarani), Distt-Korba, Chhattisgarh, India.
+                    {t('action.address')}
                     <br />
-                    Registration No. 13377
+                    {t('action.registrationNo')}
                 </p>
             </div>
 
             {/* Action Buttons Section */}
             <div className={classes.buttonsSection}>
                 <button className={classes.actionButton} onClick={handleDonationClick}>
-                    💝 Donate Now
+                    {t('action.donateButton')}
                 </button>
                 <button className={classes.actionButton} onClick={handleJyotiKalashClick}>
-                    🕯️ Jyoti Kalash Registration
+                    {t('action.jyotiKalashButton')}
                 </button>
             </div>
         </div>

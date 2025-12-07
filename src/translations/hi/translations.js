@@ -153,6 +153,69 @@ export const TRANSLATIONS_HI = {
             Description: "",
             price: "₹701"
         }
+    },
+
+    jyotiKalashPage: {
+        registrationForm: {
+            title: "ज्योति कलश पंजीकरण",
+            successMessage: "पंजीकरण सफलतापूर्वक जमा किया गया!",
+            labels: {
+                name: "नाम",
+                address: "पता",
+                contact: "संपर्क नंबर",
+                type: "ज्योति कलश प्रकार"
+            },
+            placeholders: {
+                name: "अपना नाम दर्ज करें",
+                address: "अपना पता दर्ज करें",
+                contact: "अपना संपर्क नंबर दर्ज करें"
+            },
+            submit: "अभी पंजीकृत करें",
+            submitting: "जमा किया जा रहा है..."
+        },
+        modal: {
+            processing: "प्रसंस्करण",
+            successful: "पंजीकरण सफल",
+            registration: "पंजीकरण",
+            processingMessage: "आपके पंजीकरण को संसाधित किया जा रहा है। कृपया प्रतीक्षा करें...",
+            successText: "आपका पंजीकरण सफल रहा।",
+            receiptNumber: "रसीद संख्या:",
+            failureText: "पंजीकरण विफल। कृपया पुनः प्रयास करें।",
+            close: "बंद करें"
+        },
+        registrationsTable: {
+            title: "पंजीकरण",
+            loadButton: "पंजीकरण लोड करें",
+            loading: "लोड किया जा रहा है...",
+            fetchingMessage: "पंजीकरण प्राप्त किए जा रहे हैं...",
+            noData: "प्रदर्शित करने के लिए कोई पंजीकरण नहीं।",
+            columns: {
+                id: "आईडी",
+                receipt: "रसीद",
+                name: "नाम",
+                address: "पता",
+                contact: "संपर्क",
+                type: "प्रकार"
+            }
+        },
+        searchSection: {
+            title: "पंजीकरण खोजें",
+            label: "रसीद संख्या",
+            placeholder: "रसीद संख्या दर्ज करें",
+            searchButton: "खोज",
+            searching: "खोज रहे हैं...",
+            errorMessage: "इस रसीद संख्या के लिए कोई पंजीकरण नहीं मिला",
+            detailsTitle: "पंजीकरण विवरण"
+        }
+    },
+
+    action: {
+        orgName: "जय माँ मड़वारानी सेवा समिति (कलमी पेड़)",
+        address: "ऊपर, झींका महोरा (मड़वारानी), जिला-कोरबा, छत्तीसगढ़, भारत।",
+        registrationNo: "पंजीकरण संख्या 13377",
+        donateButton: "दान दें",
+        donateComingSoon: "दान सुविधा जल्द आ रही है!",
+        jyotiKalashButton: "ज्योति कलश पंजीकरण"
     }
 
 };

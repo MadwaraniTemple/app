@@ -153,5 +153,68 @@ export const TRANSLATIONS_EN = {
             Description: "",
             price: "₹701"
         }
+    },
+
+    jyotiKalashPage: {
+        registrationForm: {
+            title: "Jyoti Kalash Registration",
+            successMessage: "Registration submitted successfully!",
+            labels: {
+                name: "Name",
+                address: "Address",
+                contact: "Contact No.",
+                type: "Jyoti Kalash Type"
+            },
+            placeholders: {
+                name: "Enter your name",
+                address: "Enter your address",
+                contact: "Enter your contact number"
+            },
+            submit: "Register Now",
+            submitting: "Submitting..."
+        },
+        modal: {
+            processing: "Processing",
+            successful: "Registration Successful",
+            registration: "Registration",
+            processingMessage: "Processing your registration. Please wait...",
+            successText: "Your registration was successful.",
+            receiptNumber: "Receipt Number:",
+            failureText: "Registration failed. Please try again.",
+            close: "Close"
+        },
+        registrationsTable: {
+            title: "Registrations",
+            loadButton: "Load Registrations",
+            loading: "Loading...",
+            fetchingMessage: "Fetching registrations...",
+            noData: "No registrations to show.",
+            columns: {
+                id: "ID",
+                receipt: "Receipt",
+                name: "Name",
+                address: "Address",
+                contact: "Contact",
+                type: "Type"
+            }
+        },
+        searchSection: {
+            title: "Search Registration",
+            label: "Receipt Number",
+            placeholder: "Enter receipt number",
+            searchButton: "Search",
+            searching: "Searching...",
+            errorMessage: "No registration found for this receipt number",
+            detailsTitle: "Registration Details"
+        }
+    },
+
+    action: {
+        orgName: "Jay Maa Madwarani Seva Samiti (Kalmi Ped)",
+        address: "Uphill, Jheenka Mahora (Madwarani), Distt-Korba, Chhattisgarh, India.",
+        registrationNo: "Registration No. 13377",
+        donateButton: "Donate Now",
+        donateComingSoon: "Donation feature coming soon!",
+        jyotiKalashButton: "Jyoti Kalash Registration"
     }
 };
